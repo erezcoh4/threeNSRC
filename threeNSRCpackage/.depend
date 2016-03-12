@@ -1,0 +1,368 @@
+TAnalysisEG2.o: TAnalysisEG2.cxx TAnalysisEG2.h \
+  /Users/erezcohen/larlite/UserDev/mySoftware/mySoftwarePackage/TPlots.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/sys/_pthread/_pthread_types.h \
+  /usr/include/sys/_types/_va_list.h /usr/include/sys/_types/_size_t.h \
+  /usr/include/sys/_types/_null.h /usr/include/sys/stdio.h \
+  /usr/include/sys/_types/_off_t.h /usr/include/sys/_types/_ssize_t.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iosfwd \
+  /usr/include/wchar.h /usr/include/sys/_types/_mbstate_t.h \
+  /usr/include/sys/_types/_ct_rune_t.h /usr/include/sys/_types/_rune_t.h \
+  /usr/include/sys/_types/_wchar_t.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/include/stdarg.h \
+  /usr/include/time.h /usr/include/sys/_types/_clock_t.h \
+  /usr/include/sys/_types/_time_t.h /usr/include/sys/_types/_timespec.h \
+  /usr/include/_wctype.h /usr/include/sys/_types/_wint_t.h \
+  /usr/include/_types/_wctype_t.h /usr/include/ctype.h \
+  /usr/include/runetype.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstring \
+  /usr/include/string.h /usr/include/strings.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cctype \
+  /usr/include/wctype.h /usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/include/stdint.h \
+  /usr/include/stdint.h /usr/include/sys/_types/_int8_t.h \
+  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
+  /usr/include/sys/_types/_int64_t.h /usr/include/_types/_uint8_t.h \
+  /usr/include/_types/_uint16_t.h /usr/include/_types/_uint32_t.h \
+  /usr/include/_types/_uint64_t.h /usr/include/sys/_types/_intptr_t.h \
+  /usr/include/sys/_types/_uintptr_t.h /usr/include/_types/_intmax_t.h \
+  /usr/include/_types/_uintmax_t.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/new \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__undef_min_max \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cerrno \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/pthread.h \
+  /usr/include/pthread/pthread_impl.h /usr/include/pthread/sched.h \
+  /usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/include/sys/_pthread/_pthread_t.h /usr/include/pthread/qos.h \
+  /usr/include/sys/qos.h /usr/include/sys/_types/_mach_port_t.h \
+  /usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/functional \
+  /usr/include/locale.h /usr/include/_locale.h /usr/include/xlocale.h \
+  /usr/include/_xlocale.h /usr/include/xlocale/_ctype.h \
+  /usr/include/xlocale/__wctype.h /usr/include/xlocale/_stdio.h \
+  /usr/include/xlocale/_string.h /usr/include/xlocale/_time.h \
+  /usr/include/xlocale/_wchar.h /usr/include/xlocale/_wctype.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstdlib \
+  /usr/include/stdlib.h /usr/include/sys/wait.h \
+  /usr/include/sys/_types/_pid_t.h /usr/include/sys/_types/_id_t.h \
+  /usr/include/sys/signal.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/signal.h /usr/include/i386/signal.h \
+  /usr/include/machine/_mcontext.h /usr/include/i386/_mcontext.h \
+  /usr/include/mach/i386/_structs.h \
+  /usr/include/sys/_types/_sigaltstack.h \
+  /usr/include/sys/_types/_ucontext.h /usr/include/sys/_types/_uid_t.h \
+  /usr/include/sys/resource.h /usr/include/sys/_types/_timeval.h \
+  /usr/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/sys/_types/_dev_t.h /usr/include/sys/_types/_mode_t.h \
+  /usr/include/xlocale/_stdlib.h /usr/include/nl_types.h \
+  /usr/include/sys/types.h /usr/include/sys/_types/_blkcnt_t.h \
+  /usr/include/sys/_types/_blksize_t.h /usr/include/sys/_types/_gid_t.h \
+  /usr/include/sys/_types/_in_addr_t.h \
+  /usr/include/sys/_types/_in_port_t.h /usr/include/sys/_types/_ino_t.h \
+  /usr/include/sys/_types/_ino64_t.h /usr/include/sys/_types/_key_t.h \
+  /usr/include/sys/_types/_nlink_t.h \
+  /usr/include/sys/_types/_useconds_t.h \
+  /usr/include/sys/_types/_suseconds_t.h \
+  /usr/include/sys/_types/_rsize_t.h /usr/include/sys/_types/_errno_t.h \
+  /usr/include/sys/_types/_fd_def.h \
+  /usr/include/sys/_types/_fd_setsize.h \
+  /usr/include/sys/_types/_fd_set.h /usr/include/sys/_types/_fd_clr.h \
+  /usr/include/sys/_types/_fd_zero.h /usr/include/sys/_types/_fd_isset.h \
+  /usr/include/sys/_types/_fd_copy.h \
+  /usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/include/sys/_types/_fsfilcnt_t.h /usr/include/_types/_nl_item.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iomanip \
+  /usr/include/math.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/fstream \
+  /Users/erezcohen/root-v5-34/include/root/TRotation.h \
+  /Users/erezcohen/root-v5-34/include/root/TObject.h \
+  /Users/erezcohen/root-v5-34/include/root/Rtypes.h \
+  /Users/erezcohen/root-v5-34/include/root/RConfig.h \
+  /Users/erezcohen/root-v5-34/include/root/RVersion.h \
+  /usr/include/AvailabilityMacros.h /usr/include/TargetConditionals.h \
+  /Users/erezcohen/root-v5-34/include/root/DllImport.h \
+  /Users/erezcohen/root-v5-34/include/root/Rtypeinfo.h \
+  /Users/erezcohen/root-v5-34/include/root/snprintf.h \
+  /Users/erezcohen/root-v5-34/include/root/strlcpy.h \
+  /Users/erezcohen/root-v5-34/include/root/TGenericClassInfo.h \
+  /Users/erezcohen/root-v5-34/include/root/TSchemaHelper.h \
+  /Users/erezcohen/root-v5-34/include/root/TStorage.h \
+  /Users/erezcohen/root-v5-34/include/root/TVersionCheck.h \
+  /Users/erezcohen/root-v5-34/include/root/Riosfwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TBuffer.h \
+  /Users/erezcohen/root-v5-34/include/root/TVector3.h \
+  /Users/erezcohen/root-v5-34/include/root/TError.h \
+  /Users/erezcohen/root-v5-34/include/root/TVector2.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrix.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixF.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixT.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixTBase.h \
+  /Users/erezcohen/root-v5-34/include/root/TNamed.h \
+  /Users/erezcohen/root-v5-34/include/root/TString.h \
+  /Users/erezcohen/root-v5-34/include/root/TMathBase.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cmath \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixFBasefwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixDBasefwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TVectorFfwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TVectorDfwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixTUtils.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixFfwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixFUtils.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixFUtilsfwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TTimeStamp.h \
+  /usr/include/sys/time.h /usr/include/sys/_select.h \
+  /Users/erezcohen/root-v5-34/include/root/TStopwatch.h \
+  /Users/erezcohen/root-v5-34/include/root/TSystem.h \
+  /usr/include/fcntl.h /usr/include/sys/fcntl.h \
+  /usr/include/sys/_types/_o_sync.h /usr/include/sys/_types/_o_dsync.h \
+  /usr/include/sys/_types/_seek_set.h /usr/include/sys/_types/_s_ifmt.h \
+  /usr/include/sys/_types/_filesec_t.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/_types/_posix_vdisable.h \
+  /usr/include/sys/select.h /usr/include/sys/_types/_uuid_t.h \
+  /usr/include/gethostuuid.h \
+  /Users/erezcohen/root-v5-34/include/root/TInetAddress.h \
+  /Users/erezcohen/root-v5-34/include/root/TTimer.h \
+  /Users/erezcohen/root-v5-34/include/root/TSysEvtHandler.h \
+  /Users/erezcohen/root-v5-34/include/root/TQObject.h \
+  /Users/erezcohen/root-v5-34/include/root/TTime.h \
+  /Users/erezcohen/root-v5-34/include/root/ThreadLocalStorage.h \
+  /Users/erezcohen/root-v5-34/include/root/RConfigure.h \
+  /Users/erezcohen/root-v5-34/include/root/TLine.h \
+  /Users/erezcohen/root-v5-34/include/root/TAttLine.h \
+  /Users/erezcohen/root-v5-34/include/root/TAttBBox2D.h \
+  /Users/erezcohen/root-v5-34/include/root/GuiTypes.h \
+  /Users/erezcohen/root-v5-34/include/root/TArrow.h \
+  /Users/erezcohen/root-v5-34/include/root/TAttFill.h \
+  /Users/erezcohen/root-v5-34/include/root/TFile.h \
+  /Users/erezcohen/root-v5-34/include/root/TDirectoryFile.h \
+  /Users/erezcohen/root-v5-34/include/root/TDirectory.h \
+  /Users/erezcohen/root-v5-34/include/root/TList.h \
+  /Users/erezcohen/root-v5-34/include/root/TSeqCollection.h \
+  /Users/erezcohen/root-v5-34/include/root/TCollection.h \
+  /Users/erezcohen/root-v5-34/include/root/TIterator.h \
+  /Users/erezcohen/root-v5-34/include/root/TDatime.h \
+  /Users/erezcohen/root-v5-34/include/root/TUUID.h \
+  /Users/erezcohen/root-v5-34/include/root/TMap.h \
+  /Users/erezcohen/root-v5-34/include/root/THashTable.h \
+  /Users/erezcohen/root-v5-34/include/root/TUrl.h \
+  /Users/erezcohen/root-v5-34/include/root/TTree.h \
+  /Users/erezcohen/root-v5-34/include/root/TBranch.h \
+  /Users/erezcohen/root-v5-34/include/root/TObjArray.h \
+  /Users/erezcohen/root-v5-34/include/root/TDataType.h \
+  /Users/erezcohen/root-v5-34/include/root/TDictionary.h \
+  /Users/erezcohen/root-v5-34/include/root/Property.h \
+  /Users/erezcohen/root-v5-34/include/root/ESTLType.h \
+  /Users/erezcohen/root-v5-34/include/root/TAttMarker.h \
+  /Users/erezcohen/root-v5-34/include/root/TArrayD.h \
+  /Users/erezcohen/root-v5-34/include/root/TArray.h \
+  /Users/erezcohen/root-v5-34/include/root/TArrayI.h \
+  /Users/erezcohen/root-v5-34/include/root/TClass.h \
+  /Users/erezcohen/root-v5-34/include/root/TObjString.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/map \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__tree \
+  /Users/erezcohen/root-v5-34/include/root/TVirtualTreePlayer.h \
+  /Users/erezcohen/root-v5-34/include/root/TROOT.h \
+  /Users/erezcohen/root-v5-34/include/root/TCanvas.h \
+  /Users/erezcohen/root-v5-34/include/root/TPad.h \
+  /Users/erezcohen/root-v5-34/include/root/TVirtualPad.h \
+  /Users/erezcohen/root-v5-34/include/root/TAttPad.h \
+  /Users/erezcohen/root-v5-34/include/root/TVirtualX.h \
+  /Users/erezcohen/root-v5-34/include/root/TAttText.h \
+  /Users/erezcohen/root-v5-34/include/root/Buttons.h \
+  /Users/erezcohen/root-v5-34/include/root/TAttCanvas.h \
+  /Users/erezcohen/root-v5-34/include/root/TCanvasImp.h \
+  /Users/erezcohen/root-v5-34/include/root/TH1F.h \
+  /Users/erezcohen/root-v5-34/include/root/TH1.h \
+  /Users/erezcohen/root-v5-34/include/root/TAxis.h \
+  /Users/erezcohen/root-v5-34/include/root/TAttAxis.h \
+  /Users/erezcohen/root-v5-34/include/root/TArrayC.h \
+  /Users/erezcohen/root-v5-34/include/root/TArrayS.h \
+  /Users/erezcohen/root-v5-34/include/root/TArrayF.h \
+  /Users/erezcohen/root-v5-34/include/root/Foption.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/include/float.h \
+  /Users/erezcohen/root-v5-34/include/root/TFitResultPtr.h \
+  /Users/erezcohen/root-v5-34/include/root/TH2F.h \
+  /Users/erezcohen/root-v5-34/include/root/TH2.h \
+  /Users/erezcohen/root-v5-34/include/root/TH3F.h \
+  /Users/erezcohen/root-v5-34/include/root/TH3.h \
+  /Users/erezcohen/root-v5-34/include/root/TAtt3D.h \
+  /Users/erezcohen/root-v5-34/include/root/TProfile.h \
+  /Users/erezcohen/root-v5-34/include/root/TStyle.h \
+  /Users/erezcohen/root-v5-34/include/root/TMultiGraph.h \
+  /Users/erezcohen/root-v5-34/include/root/TF1.h \
+  /Users/erezcohen/root-v5-34/include/root/TFormula.h \
+  /Users/erezcohen/root-v5-34/include/root/TBits.h \
+  /Users/erezcohen/root-v5-34/include/root/Math/ParamFunctor.h \
+  /Users/erezcohen/root-v5-34/include/root/TGraphErrors.h \
+  /Users/erezcohen/root-v5-34/include/root/TGraph.h \
+  /Users/erezcohen/root-v5-34/include/root/TLegend.h \
+  /Users/erezcohen/root-v5-34/include/root/TPave.h \
+  /Users/erezcohen/root-v5-34/include/root/TBox.h \
+  /Users/erezcohen/root-v5-34/include/root/TPaveStats.h \
+  /Users/erezcohen/root-v5-34/include/root/TPaveText.h \
+  /Users/erezcohen/root-v5-34/include/root/TText.h \
+  /Users/erezcohen/root-v5-34/include/root/TChain.h \
+  /Users/erezcohen/root-v5-34/include/root/TLeaf.h \
+  /Users/erezcohen/root-v5-34/include/root/TMath.h \
+  /Users/erezcohen/root-v5-34/include/root/TCut.h \
+  /Users/erezcohen/root-v5-34/include/root/TLorentzVector.h \
+  /Users/erezcohen/root-v5-34/include/root/TPie.h \
+  /Users/erezcohen/root-v5-34/include/root/TLatex.h \
+  /Users/erezcohen/root-v5-34/include/root/TEllipse.h \
+  /Users/erezcohen/root-v5-34/include/root/TPolyLine3D.h \
+  /Users/erezcohen/root-v5-34/include/root/TRandom2.h \
+  /Users/erezcohen/root-v5-34/include/root/TRandom.h \
+  /Users/erezcohen/root-v5-34/include/root/THStack.h \
+  /Users/erezcohen/root-v5-34/include/root/TSpectrum.h \
+  /Users/erezcohen/root-v5-34/include/root/TSpectrum2.h \
+  /Users/erezcohen/root-v5-34/include/root/TUnfoldSys.h \
+  /Users/erezcohen/root-v5-34/include/root/TUnfold.h \
+  /Users/erezcohen/root-v5-34/include/root/TH1D.h \
+  /Users/erezcohen/root-v5-34/include/root/TH2D.h \
+  /Users/erezcohen/root-v5-34/include/root/TSpline.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixDSparse.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixTSparse.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixDSparsefwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixDUtils.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixDUtilsfwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixD.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixDfwd.h \
+  /Users/erezcohen/root-v5-34/include/root/TCutG.h \
+  /Users/erezcohen/root-v5-34/include/root/TGeoSphere.h \
+  /Users/erezcohen/root-v5-34/include/root/TGeoBBox.h \
+  /Users/erezcohen/root-v5-34/include/root/TGeoShape.h \
+  /Users/erezcohen/larlite/UserDev/mySoftware/mySoftwarePackage/TAnalysis.h \
+  /Users/erezcohen/root-v5-34/include/root/RooGlobalFunc.h \
+  /Users/erezcohen/root-v5-34/include/root/RooCmdArg.h \
+  /Users/erezcohen/root-v5-34/include/root/RooLinkedList.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/list \
+  /Users/erezcohen/root-v5-34/include/root/RooLinkedListElem.h \
+  /Users/erezcohen/root-v5-34/include/root/RooHashTable.h \
+  /Users/erezcohen/root-v5-34/include/root/RooRealVar.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsRealLValue.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsReal.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsArg.h \
+  /usr/include/assert.h \
+  /Users/erezcohen/root-v5-34/include/root/THashList.h \
+  /Users/erezcohen/root-v5-34/include/root/TRefArray.h \
+  /Users/erezcohen/root-v5-34/include/root/TProcessID.h \
+  /Users/erezcohen/root-v5-34/include/root/RooPrintable.h \
+  /Users/erezcohen/root-v5-34/include/root/RooRefCountList.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsCache.h \
+  /Users/erezcohen/root-v5-34/include/root/RooLinkedListIter.h \
+  /Users/erezcohen/root-v5-34/include/root/RooNameReg.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/set \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stack \
+  /Users/erezcohen/root-v5-34/include/root/RooCurve.h \
+  /Users/erezcohen/root-v5-34/include/root/RooPlotable.h \
+  /Users/erezcohen/root-v5-34/include/root/RooArgSet.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsCollection.h \
+  /Users/erezcohen/root-v5-34/include/root/RooErrorHandler.h \
+  /usr/include/signal.h \
+  /Users/erezcohen/root-v5-34/include/root/RooArgList.h \
+  /Users/erezcohen/root-v5-34/include/root/RooNumber.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsLValue.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsBinning.h \
+  /Users/erezcohen/root-v5-34/include/root/RooUniformBinning.h \
+  /Users/erezcohen/root-v5-34/include/root/RooSharedPropertiesList.h \
+  /Users/erezcohen/root-v5-34/include/root/RooSharedProperties.h \
+  /Users/erezcohen/root-v5-34/include/root/RooRealVarSharedProperties.h \
+  /Users/erezcohen/root-v5-34/include/root/RooDataSet.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsData.h \
+  /Users/erezcohen/root-v5-34/include/root/RooFormulaVar.h \
+  /Users/erezcohen/root-v5-34/include/root/RooFormula.h \
+  /Users/erezcohen/root-v5-34/include/root/RooListProxy.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsProxy.h \
+  /Users/erezcohen/root-v5-34/include/root/RooTrace.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixDSym.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixTSym.h \
+  /Users/erezcohen/root-v5-34/include/root/TMatrixDSymfwd.h \
+  /Users/erezcohen/root-v5-34/include/root/RooDirItem.h \
+  /Users/erezcohen/root-v5-34/include/root/RooDataHist.h \
+  /Users/erezcohen/root-v5-34/include/root/RooNameSet.h \
+  /Users/erezcohen/root-v5-34/include/root/RooCacheManager.h \
+  /Users/erezcohen/root-v5-34/include/root/RooMsgService.h \
+  /Users/erezcohen/root-v5-34/include/root/RooNormSetCache.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsCacheElement.h \
+  /Users/erezcohen/root-v5-34/include/root/RooGaussian.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsPdf.h \
+  /Users/erezcohen/root-v5-34/include/root/RooObjCacheManager.h \
+  /Users/erezcohen/root-v5-34/include/root/RooRealProxy.h \
+  /Users/erezcohen/root-v5-34/include/root/RooArgProxy.h \
+  /Users/erezcohen/root-v5-34/include/root/RooConstVar.h \
+  /Users/erezcohen/root-v5-34/include/root/RooGenericPdf.h \
+  /Users/erezcohen/root-v5-34/include/root/RooPolynomial.h \
+  /Users/erezcohen/root-v5-34/include/root/RooChi2Var.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsOptTestStatistic.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsTestStatistic.h \
+  /Users/erezcohen/root-v5-34/include/root/RooSetProxy.h \
+  /Users/erezcohen/root-v5-34/include/root/RooCategoryProxy.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsCategory.h \
+  /Users/erezcohen/root-v5-34/include/root/RooCatType.h \
+  /Users/erezcohen/root-v5-34/include/root/RooAbsCategoryLValue.h \
+  /Users/erezcohen/root-v5-34/include/root/RooMinuit.h \
+  /Users/erezcohen/root-v5-34/include/root/RooPlot.h \
+  /Users/erezcohen/root-v5-34/include/root/RooList.h \
+  /Users/erezcohen/larlite/UserDev/mySoftware/mySoftwarePackage/TCalculations.h
+sample.o: sample.cxx sample.h
